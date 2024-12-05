@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="left-section">
+            <i class="fas fa-bars"></i>
+            <img class="youtube-logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo">
+        </div>
+        
+        <div class="middle-section">
+            <form class="search-form">
+                <input type="text" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </form>
+            <button class="voice-search-button">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-bell"></i>
+            <img class="profile-picture" src="https://via.placeholder.com/32" alt="Profile picture">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-item active">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-compass"></i>
+                <span>Explore</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-play-circle"></i>
+                <span>Shorts</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-subscription"></i>
+                <span>Subscriptions</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-book"></i>
+                <span>Library</span>
+            </div>
+        </nav>
+
+        <!-- Video Grid -->
+        <div class="video-grid">
+            <!-- Video Card 1 -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/250x150" alt="Video thumbnail">
+                    <span class="duration">12:24</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="https://via.placeholder.com/36" alt="Channel icon">
+                    <div class="video-details">
+                        <h3>Amazing Video Title Here</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Card 2 -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/250x150" alt="Video thumbnail">
+                    <span class="duration">8:12</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="https://via.placeholder.com/36" alt="Channel icon">
+                    <div class="video-details">
+                        <h3>Another Great Video Title</h3>
+                        <p class="channel-name">Another Channel</p>
+                        <p class="video-stats">45K views • 5 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- More video cards (3-6) -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/250x150" alt="Video thumbnail">
+                    <span class="duration">15:30</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="https://via.placeholder.com/36" alt="Channel icon">
+                    <div class="video-details">
+                        <h3>Exciting Content Video</h3>
+                        <p class="channel-name">Cool Channel</p>
+                        <p class="video-stats">89K views • 1 week ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/250x150" alt="Video thumbnail">
+                    <span class="duration">5:45</span>
+                </div>
+                <div class="video-info">
+                    <img class="channel-icon" src="https://via.placeholder.com/36" alt="Channel icon">
+                    <div class="video-details">
+                        <h3>Must Watch Video</h3>
+                        <p class="channel-name">Awesome Creator</p>
+                        <p class="video-stats">250K views • 3 days ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
